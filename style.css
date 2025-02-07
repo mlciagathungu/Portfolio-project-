@@ -1,0 +1,139 @@
+body{
+    height: 100vh;
+}
+.safari-container {
+    display :grid;
+    margin: 0;
+    grid-template-areas:
+
+    'navbar navbar navbar navbar navbar navbar navbar'
+    'homepage homepage homepage homepage homepage homepage homepage'
+    'menua menua listview listview menub menub menub'
+    'helpForm helpForm helpForm helpForm helpForm helpForm helpForm'
+    'footersec footersec footersec footersec footersec footersec footersec'
+
+;
+}
+
+#item1{
+    grid-area:navbar;
+    width: 1200px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    color: #141514;
+}
+#item2{
+    grid-area: homepage;
+    margin-left:35%;
+;
+
+
+
+}
+#item3{
+    grid-area: menua;
+    font-weight: bold;
+    line-height: 50px;
+}
+#item4{
+    grid-area: listview;
+    border: 3px solid #f19f05;
+    border-radius: 7px;
+}
+
+#item5{
+background-color: #b807fd;
+    grid-area: menub;
+}
+#item6{
+    grid-area: helpForm;
+}
+#item7{
+    background-color: cornflowerblue;
+    grid-area: footersec;
+}
+
+
+ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ul li:hover{
+    color: #fcad1a;
+    transition: 0.5s ease-in-out;
+}
+.unordered-list{
+    width: 400px;
+    height: 75px;
+    float: left;
+
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 330px;
+    float: left;
+    margin-left: 410px;
+    margin-top: -40px;
+}
+
+.form-control{
+    height: 30px;
+    border: 1px solid #f19f05;
+    background-color: #ffffff;
+    padding: 12px;
+    border-right: none;
+    color: #a909de;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    float: left;
+
+
+}
+.btn{
+    height: 30px;
+    background-color: #f19f05;
+    color: white;
+    border: 2px solid #f19f05;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.btn:hover{
+    background-color: #f19f05;
+    color: #1de10e;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+img{
+    postion:absolute;
+    top: -50%;
+    left: -50%;
+
+}
